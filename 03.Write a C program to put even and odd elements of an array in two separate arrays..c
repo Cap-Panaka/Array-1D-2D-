@@ -8,9 +8,8 @@ int main()
     printf("Enter the number of elements for your array: ");
     scanf("%d",&n);
     int arr[n];
-    int arr1[n];
     printf("Enter the array elements: ");
-    for(i=0;i<n;i++)\
+    for(i=0;i<n;i++)
     {
         scanf("%d",&arr[i]);
     }
@@ -29,7 +28,17 @@ int main()
         printf("%d ",arr[i]);
         }
     }
-    pirntf("Number of odd elements: %d",count);
-
-
+    printf("\nNumber of odd elements: %d\n",count);
+    
+    count=0;  printf("\nEven elements: \n");
+     for(i=0;i<n;i++)
+    {
+        if(arr[i]%2==0)
+        {
+        count++;
+        printf("%d ",arr[i]);
+        }
+    }
+    printf("\nNumber of even elements: %d\n",count);
 }
+
