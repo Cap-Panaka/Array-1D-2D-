@@ -1,4 +1,4 @@
-/*Write a C program to left rotate an array. 
+/*Write a C program to right rotate an array. 
 
 Enter array size: 5
 Enter the elements: 1 2 3 4 5
