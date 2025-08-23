@@ -20,7 +20,7 @@ int main()
     scanf("%d",&arr[n]);
     
     printf("after adding the elements: ");
-    for(i=0;i<=n;i++)
+    for(i=0;i<=n;i++)  //need to watch here carefully
     {
         printf("%d ",arr[i]);
     }
