@@ -11,7 +11,7 @@ after adding the elements: 1 2 3 2 4 5 */
 #include<stdio.h>
 int main()
 {
-    int n, i, sum=0;
+    int n, i;
     printf("Enter array size:");
     scanf("%d", &n);
     int arr[n+1];
