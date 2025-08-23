@@ -5,7 +5,7 @@ int main()
     int n, i;
     printf("Enter array size:");
     scanf("%d", &n);
-    int arr[n+1];
+    int arr[n+1]; //need to watch here
     printf("Enter the elements: ");
     for(i=0; i<n; i++)
     {
