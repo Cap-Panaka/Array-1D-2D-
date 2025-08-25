@@ -39,7 +39,7 @@ int main()
     arr[index]=value;
     
     printf("after adding the elements: ");
-    for(i=0;i<=n;i++)
+    for(i=0;i<=n;i++) //Watch here
     {
         printf("%d ",arr[i]);
     }
