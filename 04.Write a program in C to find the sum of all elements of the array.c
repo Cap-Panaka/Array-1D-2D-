@@ -4,7 +4,7 @@ Enter the number of elements for your array: 5
 Enter the array elements: 
 100 2 300 1 2 
 Output:  
-The sum of your array elements is : 504 */
+The sum of your array elements is : 405*/
 #include <stdio.h>
 int main() 
 {
