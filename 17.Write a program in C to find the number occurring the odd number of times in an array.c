@@ -42,3 +42,40 @@ int main()
            }
        }
    }
+
+
+
+
+
+
+/*#include<stdio.h>
+int main()
+{
+
+    int arr[101],freq[101]={0},flag=0;
+
+    printf("Enter the number of elements :");
+    int n;
+    scanf("%d",&n);
+    printf("Enter the lements: ");
+
+    for(int i=0;i<n;i++)
+    {
+        scanf("%d",&arr[i]);
+        freq[arr[i]]++;
+    }
+    for(int i=0;i<n;i++)
+    {
+
+        printf("%d",arr[i]);
+    }
+
+    for(int i=0;i<n;i++)
+    {
+      if(freq[i]>1)
+      flag++;
+
+    }
+    printf("\n%d",flag);
+
+}*/
